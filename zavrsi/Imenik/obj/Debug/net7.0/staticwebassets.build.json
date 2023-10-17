@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "BqXdx0apdw8bVlfUJbcCQD9TBZ00ViGX8UQj2ur1vXE=",
+  "Source": "Imenik",
+  "BasePath": "_content/Imenik",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Imenik\\wwwroot",
+      "Source": "Imenik",
+      "ContentRoot": "C:\\Users\\Bruno\\Documents\\GitHub\\Imenik\\Imenik\\wwwroot\\",
+      "BasePath": "_content/Imenik",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
