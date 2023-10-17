@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WB5CCDNKmFkJ08hcagij1awugOfhkr71flSgSzqzYIrQMCD/oXi4zL/ILc7XTrDq+gD8DehSqf57ys6QDsyH0w==",
+  "dgSpecHash": "IlEOL96ejLZ9ipPO0rxPreFF0lQ/IwK84YIywAjnc4shtffd/AsKP/aeIYc8MTt0UBUbBrWuoPclD9xrKOQnwQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bruno\\Documents\\GitHub\\Imenik\\Imenik\\Imenik.csproj",
+  "projectFilePath": "C:\\Users\\Bruno\\Documents\\GitHub\\Imenik\\Imenik\\zavrsi\\Imenik\\Imenik.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bruno\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
