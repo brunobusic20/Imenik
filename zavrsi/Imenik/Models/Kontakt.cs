@@ -10,7 +10,6 @@ namespace ImenikApp.Models
         public string? Prezime { get; set; }
         public string? Broj { get; set; }
         public string? Adresa { get; set; }
-        //[ForeignKey("email")]
-        //public Email? Email { get; set; }
+        
     }
 }
