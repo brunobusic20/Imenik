@@ -34,7 +34,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && rmdir ..\\..\\Imenik\\ZavrsniRad\\Imenik\\wwwroot /s /q && move /y build ../../Imenik/ZavrsniRad/Imenik/wwwroot",
+    "build": "react-scripts build && rmdir ..\\..\\Imenik\\Imenik\\zavrsni\\Imenik\\wwwroot /s /q && move /y build ../../Imenik/Imenik/zavrsni/Imenik/wwwroot",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

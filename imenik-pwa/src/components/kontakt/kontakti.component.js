@@ -69,8 +69,8 @@ export default class Kontakti extends Component{
                    { kontakti && kontakti.map((kontakt,index) => (
 
                     <tr key={index}>
-                        <td>{kontakt.naziv}</td>
-                        <td className="broj">{kontakt.trajanje}</td>
+                        <td>{kontakt.ime}</td>
+                        <td className="prezime">{kontakt.prezime}</td>
                         <td className="broj">
                             <NumericFormat
                                 value={kontakt.cijena}
