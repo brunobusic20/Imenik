@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Button, Container, Table } from "react-bootstrap";
-import SmjerDataService from "../../services/kontakt.service";
+import KontaktDataService from "../../services/kontakt.service";
 import { NumericFormat } from "react-number-format";
 import { Link } from "react-router-dom";
 import {FaEdit, FaTrash} from "react-icons/fa"
@@ -70,10 +70,10 @@ export default class Kontakti extends Component{
 
                     <tr key={index}>
                         <td>{kontakt.naziv}</td>
-                        <td className="broj">{smjer.trajanje}</td>
+                        <td className="broj">{kontakt.trajanje}</td>
                         <td className="broj">
                             <NumericFormat
-                                value={smjer.cijena}
+                                value={kontakt.cijena}
                                 displayType={'text'}
                                 thousandSeparator='.'
                                 decimalSeparator=','

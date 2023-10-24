@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MiPNklaS6zKlYQ1v9uaYgxB+SumRxtuZk9JINn43nTM=",
+  "Hash": "76BQVWCJpDVm/7gyQyoDuHagZD9+rBJa8zHN3bMDesM=",
   "Source": "Imenik",
   "BasePath": "_content/Imenik",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Imenik\\wwwroot",
       "Source": "Imenik",
-      "ContentRoot": "C:\\Users\\Polaznik\\Documents\\GitHub\\Imenik\\zavrsi\\Imenik\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Bruno\\Documents\\GitHub\\Imenik\\Imenik\\zavrsi\\Imenik\\wwwroot\\",
       "BasePath": "_content/Imenik",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Polaznik\\Documents\\GitHub\\Imenik\\zavrsi\\Imenik\\wwwroot\\Index.html",
+      "Identity": "C:\\Users\\Bruno\\Documents\\GitHub\\Imenik\\Imenik\\zavrsi\\Imenik\\wwwroot\\Index.html",
       "SourceId": "Imenik",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Polaznik\\Documents\\GitHub\\Imenik\\zavrsi\\Imenik\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Bruno\\Documents\\GitHub\\Imenik\\Imenik\\zavrsi\\Imenik\\wwwroot\\",
       "BasePath": "_content/Imenik",
       "RelativePath": "Index.html",
       "AssetKind": "All",
