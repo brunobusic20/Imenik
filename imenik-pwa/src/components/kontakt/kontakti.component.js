@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Button, Container, Table } from "react-bootstrap";
 import KontaktDataService from "../../services/kontakt.service";
-import { NumericFormat } from "react-number-format";
 import { Link } from "react-router-dom";
 import {FaEdit, FaTrash} from "react-icons/fa"
 
@@ -71,20 +70,14 @@ export default class Kontakti extends Component{
                     <tr key={index}>
                         <td>{kontakt.ime}</td>
                         <td className="prezime">{kontakt.prezime}</td>
-                        <td className="broj">
-                            <NumericFormat
-                                value={kontakt.cijena}
-                                displayType={'text'}
-                                thousandSeparator='.'
-                                decimalSeparator=','
-                                prefix={'€'}
-                                decimalScale={2} 
-                                fixedDecimalScale/>
+                        <td className="broj">{kontakt.broj}
+                            
+                               
                         </td>
-                        <td className="sredina">{kontakt.verificiran ? 'DA' : 'NE'}</td>
+                        <td className="sredina">{kontakt.adresa}</td>
                         <td>
                             <Link className="btn btn-primary gumb"
-                            to={`/kotakti/${kontakt.sifra}`}>
+                            to={`/kontakti/${kontakt.sifra}`}>
                                 <FaEdit />
                             </Link>
 

@@ -14,10 +14,8 @@ export default class DodajKontakt extends Component {
 
   constructor(props) {
     super(props);
-    const token = localStorage.getItem('Bearer');
-    if(token==null || token===''){
-      window.location.href='/';
-    }
+    
+    
     this.dodajKontakt = this.dodajKontakt.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
@@ -59,14 +57,14 @@ export default class DodajKontakt extends Component {
 
     let prezime=0;
     if (podaci.get('prezime').trim().length>0){
-     prezime = parseInt(podaci.get('prezime'))
+     prezime =podaci.get('prezime')
     }
 
     this.dodajKontakt({
       ime: podaci.get('ime'),
       prezime: prezime,
-      broj: parseFloat(podaci.get('broj')),
-      adresa: parseFloat(podaci.get('adresa')),
+      broj:podaci.get('broj'),
+      adresa:podaci.get('adresa'),
       
     });
     

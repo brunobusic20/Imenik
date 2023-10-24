@@ -8,7 +8,7 @@ class KontaktDataService{
     }
 
     async getBySifra(sifra) {
-        return await http.get('/kontakt/' + sifra);
+        return await http.get('/Kontakt/' + sifra);
       }
 
     async delete(sifra){
@@ -53,5 +53,6 @@ class KontaktDataService{
          }
         
 }
-export default new KontaktDataService();
+const service=new KontaktDataService();
 
+export default service;

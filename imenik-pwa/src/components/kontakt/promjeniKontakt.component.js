@@ -13,10 +13,7 @@ export default class PromjeniKontakt extends Component {
 
   constructor(props) {
     super(props);
-    const token = localStorage.getItem('Bearer');
-    if(token==null || token===''){
-      window.location.href='/';
-    }
+    
 
    
     this.kontakt = this.dohvatiKontakt();
@@ -80,9 +77,9 @@ export default class PromjeniKontakt extends Component {
 
     this.promjeniKontakt({
       ime: podaci.get('ime'),
-      prezime: parseInt(podaci.get('prezime')),
-      broj: parseFloat(podaci.get('broj')),
-      adresa: parseFloat(podaci.get('adresa')),
+      prezime:podaci.get('prezime'),
+      broj: podaci.get('broj'),
+      adresa: podaci.get('adresa'),
       
     });
     
